@@ -1,6 +1,8 @@
 # No need to track files build files in sub directories
 src/build/*
 !src/build/.gitkeep
+# !src/build/foo
 # !*.gitkeep
 # Ignore the `.gitkeep` file copied from the `build` dir into project root
-.gitkeep
+# .gitkeep
+/.gitkeep
