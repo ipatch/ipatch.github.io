@@ -1,0 +1,5 @@
+baseURL = "https://ipatch.github.io/"
+languageCode = "en-us"
+title = "@ipatch < GitHub"
+publishDir = "docs"
+theme = "hyde"
