@@ -2,6 +2,10 @@
 
 ## Contents
 
+### user pages
+
+Apparently `$USER.github.io` pages do not support a `docs` dir for hosting the build of the site.
+
 This is the git repository that houses the logic and source code for [ipatch.github.io](https://ipatch.github.io)
 
 This project uses [hugo](https://gohugo.io/) to build a static site from the files contained in the [src](https://github.com/ipatch/ipatch.github.io/tree/master/src) directory, which are built by using **hugo**  I then use a modified version of the deploy script found in the hugo documentation to move the compiled static site from within [./src/build]() directory to the git repo [root](https://github.com/ipatch/ipatch.github.io).  The repo can be cloned and experimented with locally
